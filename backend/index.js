@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = 8000;
 
 app.get('/message', (req, res) => {
-    res.json({ message: "Poorna" });
+    res.json({ message: "Prajna" });
 });
 
 app.listen(PORT, ()=> console.log(`Server Started at PORT ${PORT}`));
